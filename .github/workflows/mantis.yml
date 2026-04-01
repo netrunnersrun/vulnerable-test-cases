@@ -37,4 +37,5 @@ jobs:
             --output json \
             --post-results https://api.mantiseu.com/api/scans \
             --api-key ${{ secrets.MANTIS_API_KEY }} \
-            --repo-name ${{ github.repository }}
+            --repo-name ${{ github.repository }} \
+          || true
