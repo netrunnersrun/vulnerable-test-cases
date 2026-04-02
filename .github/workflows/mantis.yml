@@ -9,8 +9,7 @@ on:
 
 jobs:
   security-scan:
-    runs-on:
-  workflow_dispatch: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
